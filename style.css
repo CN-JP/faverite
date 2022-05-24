@@ -1,0 +1,206 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #293462;
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.nav-link:hover {
+  border-bottom: 10px solid #FFF;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {border-bottom: 5px solid #14C38E;}
+}
+
+.logo {
+  width: 40%;
+  border-radius: 50%;
+  margin: 5px 10px;
+}
+
+.carousel-img {
+  height: 550px;
+}
+
+.container {
+  padding: 4% 0;
+}
+
+.section-title {
+  margin-bottom: 2%;
+  font-family: 'Playfair Display', serif;
+}
+
+.cta-intro {
+  text-align: center;
+  background-color: #293462;
+  color: #FFF;
+  font-weight: bold;
+  padding: 4% 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.delivery {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+.how-img {
+  width: 125px;
+  height: 125px;
+  border-radius: 20%;
+  margin-bottom: 25px;
+}
+
+.intro-button {
+  margin: 5% 5% 0;
+}
+
+.work-with, .cta-whatsapp {
+  color: #14C38E;
+}
+
+.how-fave-works {
+  text-align: center;
+}
+
+.lagos-map {
+  height: 400px;
+  width: 100%;
+}
+
+.clients {
+  text-align: center;
+}
+
+.bank-logos {
+  width: 8%;
+  margin: 2% 1.5%;
+}
+
+.testimonial {
+  text-align: center;
+  background-color: #293462;
+  color: #FFF;
+  padding: 7% 5%;
+}
+
+iframe {
+  margin: 5% 10%;
+}
+
+.cta {
+  background-color: #EEEEEE;
+  text-align: center;
+  padding: 7% 5%;
+}
+
+.cta-button {
+  margin: 2.5% 0;
+}
+
+button {
+  text-align: center;
+}
+
+.say-img {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+footer {
+  text-align: center;
+  text-decoration: none;
+  bottom: 0;
+  padding: 50px 0;
+  background-color: #EEEEEE;
+}
+
+.social-footer {
+  margin-bottom: 5%;
+}
+
+.social-icon {
+  padding: 4% 2.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cnjp {
+  font-family: 'Zen Loop', cursive;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+/* Other pages style */
+
+.uche-ark {
+  border-radius: 50%;
+  float: left;
+  margin: 5%;
+}
+
+.uche-bio h5 {
+  font-weight: bold;
+}
+
+.contact {
+  padding: 2% 4%;
+  text-align: center;
+}
+
+.address {
+  margin: auto;
+}
+
+.address h4 {
+  font-weight: bold;
+}
+
+.address h4, .address p {
+  text-align: left;
+}
+
+.career-banner {
+  width: 100%;
+  height: 250px;
+  margin: 0;
+}
